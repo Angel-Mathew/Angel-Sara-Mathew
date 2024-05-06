@@ -1,0 +1,211 @@
+/*styling background*/
+body{background-color:#FF928B;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(#FF928B,#FFAC81);
+    height: auto;
+   
+}
+
+/*styling main heading*/
+h1{text-align: center;
+top: 0px;
+margin-top: 0;
+color:rgb(35, 7, 7);
+}
+
+
+/*styling header*/
+header{
+    background-color:#FFAC81;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(#FF928B,#FFAC81);
+    height: auto;
+    border-radius: 5PX;
+padding: 15px;
+    margin-bottom: 10px;
+    
+}
+/* nav bar horizontal*/
+.navlists{ color:white;
+    display:flex;
+    list-style:none;
+   padding:5px;
+   font-style: italic;
+  font-family:fantasy;
+   justify-content: space-between;
+   }
+
+   a{
+    text-decoration: none;
+    color: brown;
+}
+
+.Home{margin-left: 20px;
+    font-size: 20px;
+    padding:35px;
+
+}
+.About{margin-left: 20px;
+    font-size: 20px;
+    padding:35px}
+.Scenery{margin-left: 20px;
+    font-size: 20px;
+    padding:35px}
+.Story_behind{margin-left: 20px;
+    font-size: 20px;
+    padding:35px}
+.Crafts{margin-left: 20px;
+    font-size: 20px;
+    padding:35px}
+.rating{
+    font-size: 20px;
+    padding:35px}
+
+/*bacckground animation*/
+    .area{background-color:#FF928B;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:linear-gradient(#FF928B,#FFAC81);
+        height: auto;
+        
+        
+       
+    }
+    
+    .circles{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .circles li{
+        position: absolute;
+        display: block;
+        list-style: none;
+        width: 20px;
+        height: 20px;
+        background: rgba(255, 254, 252, 0.2);
+        animation: animate 25s linear infinite;
+        bottom: -150px;
+        
+    }
+    
+    .circles li:nth-child(1){
+        left: 25%;
+        width: 80px;
+        height: 80px;
+        animation-delay: 0s;
+    }
+    
+    
+    .circles li:nth-child(2){
+        left: 10%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 2s;
+        animation-duration: 12s;
+    }
+    
+    .circles li:nth-child(3){
+        left: 70%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 4s;
+    }
+    
+    .circles li:nth-child(4){
+        left: 40%;
+        width: 60px;
+        height: 60px;
+        animation-delay: 0s;
+        animation-duration: 18s;
+    }
+    
+    .circles li:nth-child(5){
+        left: 65%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 0s;
+    }
+    
+    .circles li:nth-child(6){
+        left: 75%;
+        width: 100px;
+        height: 100px;
+        animation-delay: 3s;
+    }
+    
+    .circles li:nth-child(7){
+        left: 35%;
+        width: 150px;
+        height: 150px;
+        animation-delay: 7s;
+    }
+    
+    .circles li:nth-child(8){
+        left: 50%;
+        width: 25px;
+        height: 25px;
+        animation-delay: 15s;
+        animation-duration: 45s;
+    }
+    
+    .circles li:nth-child(9){
+        left: 20%;
+        width: 10px;
+        height: 10px;
+        animation-delay: 2s;
+        animation-duration: 35s;
+    }
+    
+    
+    
+    
+    
+    @keyframes animate {
+    
+        0%{
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+            border-color: #FFEAAE;
+            border-radius: 2px;
+        
+    
+        }
+    
+        100%{
+            transform: translateY(-1000px) rotate(720deg);
+            opacity: 0;
+            border-color: #FFEAAE;
+            border-radius: 50%;
+        }
+    
+    }
+   /*styling the pagination*/
+    .pagination a {
+        color: rgb(0, 0, 0);
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: 3px solid #f40606;
+        border-radius: 30px;
+        margin: 20px;
+        font-size: 30px;
+        margin-top:100px;
+        bottom:0px;
+      }
+      .pagination a.active {
+        background-color: #FFEAAE;
+        color: white;
+      }
+      
+      .pagination a:hover:not(.active) {background-color: #e8e5e5;}
+      footer{ margin-top:300px;
+        margin-left: 500px;
+        bottom:0px}
+        .checked{color:yellow; }

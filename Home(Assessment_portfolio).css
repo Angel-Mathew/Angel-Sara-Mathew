@@ -1,0 +1,184 @@
+/*styling background*/
+body{background-color:#FF928B;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(#FF928B,#FFAC81);
+    height: auto;
+   
+}
+/*styling main heading*/
+h1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+top: 0px;
+margin-top: 0;
+color:rgb(35, 7, 7);
+list-style: none;
+}
+
+/*Styling subheading 2*/
+h3{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+     text-align: center;
+     color:rgb(255, 255, 255);
+     text-shadow:7px 8px 9px #e60a0a;
+     
+}
+/*styling header*/
+header{
+    background-color:#FFAC81;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(#FF928B,#FFAC81);
+    height: auto;
+    border-radius: 5PX;
+padding: 15px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  
+    
+}
+
+/*nav {
+    margin-bottom: auto;
+    margin-right: auto;
+}*/
+
+/* nav bar horizontal*/
+.navlists{ color:white;
+    display:flex;
+    list-style:none;
+   padding:5px;
+   font-style: italic;
+  font-family:fantasy;
+   justify-content: space-between;
+   }
+
+   a{
+    text-decoration: none;
+    color: brown;
+}
+
+.Home{margin-left: 20px;
+    font-size: 20px;
+    padding:35px;
+
+}
+.About{margin-left: 20px;
+    font-size: 20px;
+    padding:35px}
+.Scenery{margin-left: 20px;
+    font-size: 20px;
+    padding:35px}
+.Story_behind{margin-left: 20px;
+    font-size: 20px;
+    padding:35px}
+.Crafts{margin-left: 20px;
+    font-size: 20px;
+    padding:35px}
+.rating{
+    font-size: 20px;
+    padding:35px}
+/*position the logo to left side*/
+img{float:left;
+border-radius: 10px;}
+
+/*styling the about with animation*/
+.port{  width: 355px;
+    height: 415px;
+  background-color:#FF928B;
+    border:4px solid #f50f0f;
+    position: relative;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+   margin-top: 50px;
+    border-radius: 3px;
+  text-align: center;
+ color:rgb(255, 249, 249);
+ font-style: italic;
+ font-family:monospace;
+font-size: 15px;
+padding :10px;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 85px; background-color: #D54036;}
+  }
+/*add animation to arrows*/
+/*styling arrows*/
+span { content: "\21E2";
+       font-size: 150px;
+       color:rgb(246, 141, 12);
+      margin-left:400px;
+       margin-top: 100px;
+       top:250px;
+       left:100px;
+       position: absolute;
+}
+span:hover{ background-color: rgb(223, 27, 13);
+  
+    width:150px;
+    height:150px;
+    margin-left:400px;
+    margin-top: 100px;
+    top:250px;
+    left:100px;
+    position: absolute;
+    
+  
+    animation-name: example;
+    animation-duration: 4s;}
+      
+      
+
+@keyframes example {
+    from {background-color: rgb(220, 16, 16);}
+    to {background-color: rgb(230, 75, 8);}
+  }
+
+ /*gave div tag  a class image and put margin */
+  .image{
+    margin-top:100px;
+    float: right;
+}
+
+/*then put a different class for img tag making a division for the image*/
+  .im{border:5px solid rgb(230, 75, 8);
+     border-radius:5px;
+     margin: 5px ;}
+/*style curve arrow*/
+.p{content:	\2936;
+    color: (246, 141, 12);
+    margin-top: 350px;
+    margin-right: 100px;
+    float:right;
+    top: 0%;
+    right: 50%;
+    position: absolute;
+
+}
+/*styling the pagination*/
+.pagination {
+    display: inline-block;
+
+  }
+  
+  .pagination a {
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 3px solid #f40606;
+    border-radius: 30px;
+    margin: 20px;
+    font-size: 30px;
+  }
+  .pagination a.active {
+    background-color: #FFEAAE;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #e8e5e5;}
+  footer{ margin-top:80px;
+    margin-left: 500px;
+    bottom:0px}

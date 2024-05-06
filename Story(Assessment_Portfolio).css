@@ -1,0 +1,158 @@
+body{background-color:#FF928B;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(#FF928B,#FFAC81);
+  height: auto;
+ 
+}
+/*styling main heading*/
+h1{text-align: center;
+top: 0px;
+margin-top: 0;
+color:rgb(35, 7, 7);
+}
+
+/*Styling subheading 2*/
+h3{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+   text-align: center;
+   color:rgb(255, 255, 255);
+   
+   
+}
+/*styling header*/
+header{
+  background-color:#FFAC81;
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(#FF928B,#FFAC81);
+  height: auto;
+  border-radius: 5PX;
+padding: 15px;
+  margin-bottom: 10px;
+  
+}
+
+/* nav bar horizontal*/
+.navlists{ color:white;
+  display:flex;
+  list-style:none;
+ padding:5px;
+ font-style: italic;
+font-family:fantasy;
+ justify-content: space-between;
+ }
+
+ a{
+  text-decoration: none;
+  color: brown;
+}
+
+.Home{margin-left: 20px;
+  font-size: 20px;
+  padding:35px;
+
+}
+.About{margin-left: 20px;
+  font-size: 20px;
+  padding:35px}
+.Scenery{margin-left: 20px;
+  font-size: 20px;
+  padding:35px}
+.Story_behind{margin-left: 20px;
+  font-size: 20px;
+  padding:35px}
+.Crafts{margin-left: 20px;
+  font-size: 20px;
+  padding:35px}
+.rating{
+  font-size: 20px;
+  padding:35px}
+/*position the logo to left side*/
+img{float:left;
+border-radius: 10px;}
+/*styling sub heading 2*/
+h2{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 40px;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+h3{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+text-align: center;
+color:#fceef4}
+/*making gallery*/  
+div.gallery {
+    margin: 30px;
+    border: 2px solid #ccc;
+    width: 200px;
+    box-shadow:5px 6px 7px rgb(243, 3, 3);
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    background-color: #0dd689;
+    color: rgb(245, 245, 245);
+    padding: 15px;
+    text-align: center;
+  }
+  /*for transition*/
+  div.story {
+    width:1000px;
+    height:2200px;
+    margin-left:300px;
+    margin-top: 100px;
+    top:230px;
+    left:100px;
+    position: absolute;
+    background-color: #253C78;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(#EF233C,#EDF2F4 );
+    height: auto;
+    transition: width 2s;
+    border-radius: 10px;
+    top:220px;
+    color: #660a0a;
+    font-style:oblique;
+    font-size: 20px;
+    padding-left: 10px;
+}
+  
+  div:hover {width:400px;
+    margin-left:300px;
+    margin-top: 100px;
+    top:230px;
+    left:100px;
+   position: absolute;
+  }
+ /*styling the pagination*/
+  .pagination a {
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 3px solid #f40606;
+    border-radius: 30px;
+    margin: 20px;
+    font-size: 30px;
+    margin-top:100px;
+    bottom:0px;
+  }
+  .pagination a.active {
+    background-color: #FFEAAE;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #e8e5e5;}
+  footer{ margin-top:700px;
+    margin-left: 500px;
+    bottom:0px}
