@@ -137,6 +137,7 @@ h1{text-align: center;
 top: 0px;
 margin-top: 0;
 color:rgb(35, 7, 7);
+font-style: oblique;
 }
 
 /*Styling subheading 2*/
@@ -144,6 +145,7 @@ h3{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
      text-align: center;
      color:rgb(255, 255, 255);
+     font-style: oblique;
 }
 /*styling header*/
 header{

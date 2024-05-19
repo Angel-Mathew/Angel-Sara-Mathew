@@ -10,6 +10,7 @@ h1{text-align: center;
 top: 0px;
 margin-top: 0;
 color:rgb(35, 7, 7);
+font-style: oblique;
 }
 
 /*Styling subheading 2*/
@@ -74,13 +75,16 @@ border-radius: 10px;}
 /*styling sub heading 2*/
 h2{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size: 40px;
+  font-style: oblique;
 text-align: center;
 color: rgb(255, 255, 255);
 }
 h3{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 20px;
+   font-style: oblique;
 text-align: center;
-color:#fceef4}
+color:#000000}
+
 /*making gallery*/  
 div.gallery {
     margin: 30px;
@@ -105,36 +109,169 @@ div.gallery {
     text-align: center;
   }
   /*for transition*/
-  div.story {
-    width:1000px;
-    height:2200px;
-    margin-left:300px;
-    margin-top: 100px;
-    top:230px;
-    left:100px;
-    position: absolute;
-    background-color: #253C78;
-  background-size: cover;
-    background-repeat: no-repeat;
-    background-image:linear-gradient(#EF233C,#EDF2F4 );
-    height: auto;
-    transition: width 2s;
-    border-radius: 10px;
-    top:220px;
-    color: #660a0a;
-    font-style:oblique;
-    font-size: 20px;
-    padding-left: 10px;
-}
-  
-  div:hover {width:400px;
-    margin-left:300px;
-    margin-top: 100px;
-    top:230px;
-    left:100px;
+  div.story1{animation-timing-function: linear;
+    width:400px;
+   height: 100px;
+  background-color: #253C78;
+     background-size: cover;
+       background-repeat: no-repeat;
+       background-image:linear-gradient(#EF233C,#EDF2F4 );
+       border-radius: 4px;
+     font-weight: bold;
+     margin-left:430px;
+     margin-top: 100px;
+     top:250px;
+     left:100px;
+     position: absolute;
+     animation: mymove 4s;
+       animation-fill-mode: forwards;
+       }
+
+   div.story2{animation-timing-function: ease;
+   width:500px;
+   height: 300px;
+   background-color: #253C78;
+   background-size: cover;
+     background-repeat: no-repeat;
+     background-image:linear-gradient(#EF233C,#EDF2F4 );
+   font-weight: bold;
+   margin-left:409px;
+   margin-top: 209px;
+   margin-bottom: 200px;
+   top:250px;
+   left:99px;
+   padding-left: 5px;
    position: absolute;
-  }
+     animation: mymove 6s;
+       animation-fill-mode:forwards;}
+
+   div.story3 {animation-timing-function: ease-in;
+    width:500px;
+    height:300px;
+    background-color: #253C78;
+   background-size: cover;
+     background-repeat: no-repeat;
+     background-image:linear-gradient(#EF233C,#EDF2F4 );
+   font-weight: bold;
+   margin-left:400px;
+   margin-top: 250px;
+   top:520px;
+   left:100px;
+   padding-left: 5px;
+   position: absolute;
+     animation: mymove 4s;
+       animation-fill-mode: forwards;}
+
+   div.story4 {animation-timing-function: ease-out;
+    width:500px;
+    height: 200px;
+    background-color: #253C78;
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-image:linear-gradient(#EF233C,#EDF2F4 );
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 350px;
+    top:730px;
+    left:100px;
+    padding-left: 5px;
+    position: absolute;
+     animation: mymove 6s;
+       animation-fill-mode: forwards;}
+
+   div.story5{animation-timing-function: ease-in-out;
+    width:500px;
+    height: 300px;
+    background-color: #253C78;
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-image:linear-gradient(#EF233C,#EDF2F4 );
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 530px;
+    top:760px;
+    left:100px;
+    padding-left: 5px;
+    position: absolute;
+     animation: mymove 4s;
+       animation-fill-mode: forwards;}
+
+   div.story6 {animation-timing-function: ease-out;
+    width:500px;
+    height: 300px;
+    background-color: #253C78;
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-image:linear-gradient(#EF233C,#EDF2F4 );
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 800px;
+    top:799px;
+    left:100px;
+    padding-left: 5px;
+    position: absolute;
+     animation: mymove 6s;
+       animation-fill-mode: forwards;}
+
+   div.story7{animation-timing-function: ease-in-out;
+    width:500px;
+    height: 300px;
+    background-color: #253C78;
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-image:linear-gradient(#EF233C,#EDF2F4 );
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 955px;
+    top:955px;
+    left:100px;
+    padding-left: 5px;
+    position: absolute;
+     animation: mymove 4s;
+       animation-fill-mode: forwards;}
+
+   div.story8 {animation-timing-function: ease-out;
+    width:500px;
+    height: 200px;
+    background-color: #253C78;
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-image:linear-gradient(#EF233C,#EDF2F4 );
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 1109px;
+  top: 1109px;
+    left:100px;
+    padding-left: 5px;
+    position: absolute;
+     animation: mymove 6s;
+       animation-fill-mode: forwards;}
+
+   div.story9{animation-timing-function: ease-in-out;
+    width:500px;
+    height: 200px;
+    background-color: #253C78;
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-image:linear-gradient(#EF233C,#EDF2F4 );
+    font-weight: bold;
+    margin-left:400px;
+    margin-top: 1215px;
+    top: 1215px;
+    left:100px;
+    padding-left: 5px;
+    position: absolute;
+     animation: mymove 4s;
+       animation-fill-mode: forwards;}
+   
+   
+   @keyframes mymove {
+     from {left: 0px;}
+     to {left: 200px;}
+   }
+  
  /*styling the pagination*/
+ 
   .pagination a {
     color: rgb(0, 0, 0);
     float: left;
@@ -153,6 +290,9 @@ div.gallery {
   }
   
   .pagination a:hover:not(.active) {background-color: #e8e5e5;}
-  footer{ margin-top:700px;
+  footer{ margin-top:100px;
     margin-left: 500px;
-    bottom:0px}
+    margin-right: 500px;
+    bottom:0px;
+   
+    }

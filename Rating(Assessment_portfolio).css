@@ -12,6 +12,7 @@ h1{text-align: center;
 top: 0px;
 margin-top: 0;
 color:rgb(35, 7, 7);
+font-style: oblique;
 }
 
 
@@ -207,5 +208,8 @@ padding: 15px;
       .pagination a:hover:not(.active) {background-color: #e8e5e5;}
       footer{ margin-top:300px;
         margin-left: 500px;
-        bottom:0px}
+        bottom:0px;
+       
+        }
+        
         .checked{color:yellow; }

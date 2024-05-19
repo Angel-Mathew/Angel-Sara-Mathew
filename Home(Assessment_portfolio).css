@@ -12,6 +12,7 @@ h1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 top: 0px;
 margin-top: 0;
 color:rgb(35, 7, 7);
+font-style: oblique;
 list-style: none;
 }
 
@@ -21,6 +22,8 @@ h3{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      text-align: center;
      color:rgb(255, 255, 255);
      text-shadow:7px 8px 9px #e60a0a;
+     margin-top: 90px;
+     font-style: oblique;
      
 }
 /*styling header*/
@@ -39,10 +42,6 @@ padding: 15px;
     
 }
 
-/*nav {
-    margin-bottom: auto;
-    margin-right: auto;
-}*/
 
 /* nav bar horizontal*/
 .navlists{ color:white;
@@ -134,22 +133,32 @@ span:hover{ background-color: rgb(223, 27, 13);
 @keyframes example {
     from {background-color: rgb(220, 16, 16);}
     to {background-color: rgb(230, 75, 8);}
-  }
+  }/*@keyframes specifies the animation code*/
 
  /*gave div tag  a class image and put margin */
-  .image{
-    margin-top:100px;
+  .image{ border:4px solid #f50f0f;
+    margin-top:35px;
+    margin-right: 100px;
     float: right;
+    background-color: #D54036;
 }
 
 /*then put a different class for img tag making a division for the image*/
   .im{border:5px solid rgb(230, 75, 8);
      border-radius:5px;
-     margin: 5px ;}
+     margin: 5px ;
+     margin-right: 25px;
+    }
+  .ima{
+    border-radius:5px;
+    padding:20px;
+    margin-top: 250px;
+    margin-left: -350px;
+}
 /*style curve arrow*/
 .p{content:	\2936;
     color: (246, 141, 12);
-    margin-top: 350px;
+    margin-top: 390px;
     margin-right: 100px;
     float:right;
     top: 0%;
@@ -179,6 +188,7 @@ span:hover{ background-color: rgb(223, 27, 13);
   }
   
   .pagination a:hover:not(.active) {background-color: #e8e5e5;}
-  footer{ margin-top:80px;
+  footer{ 
+    margin-top:100px;
     margin-left: 500px;
-    bottom:0px}
+    bottom:0px;}
