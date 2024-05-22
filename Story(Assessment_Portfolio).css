@@ -291,8 +291,8 @@ div.gallery {
   
   .pagination a:hover:not(.active) {background-color: #e8e5e5;}
   footer{ margin-top:100px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 350px;
+    margin-right: 350px;
     bottom:0px;
    
     }
